@@ -17,7 +17,7 @@ Challenges:
   1. Find the solution.gradle file in this directory.
   2. Use the Gradle wrapper to execute the task "hello".
   3. Modify the action of this task so it instead prints your name.
-  4. Figure out my favorite type of candy.
+  4. Figure out my favorite type of candy. - jelly beans
 
 */
 
@@ -25,6 +25,6 @@ task hello {
     description "Hey student! Run this one :D"
     group "Our demo"
     doLast {
-        println "Hello World!"
+        println "Hello Piotr Serafin!"
     }
 }
